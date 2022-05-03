@@ -1,0 +1,29 @@
+Long Status;
+Data data
+	String uuid;
+	String displayName;
+	String description;
+	tring developerName;
+	Array[] String characterTags;
+	linkImage displayIcon;
+	linkImage displayIconSmall;
+	linkImage bustPortrait;
+	linkImage fullPortrait;
+	linkImage killfeedPortrait;
+	linkImage background;
+	Path assetPath;
+	boolean isFullPortraitRightFacing;
+	boolean isPlayableCharacter;
+	boolean AvailableForTest;
+	boolean isBaseContent;
+	Role role
+		String uuid;
+		String displayName;
+		String description;
+		linkImage displayIcon;
+		Path assetPath;
+	Abilities abilities
+		String slot;
+		String displayName;
+		String description;
+		linkImage displayIcon;

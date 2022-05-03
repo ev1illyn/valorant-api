@@ -1,0 +1,10 @@
+com/valorant/ValorantApiApplication.class
+com/valorant/model/agents/Data.class
+com/valorant/model/agents/Agent.class
+com/valorant/template/TemplateRest.class
+com/valorant/controller/AgentController.class
+com/valorant/model/agents/Agents.class
+com/valorant/model/agents/Abilities.class
+com/valorant/model/agents/Role.class
+com/valorant/service/AgentService.class
+com/valorant/repository/AgentRepository.class

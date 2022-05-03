@@ -1,0 +1,140 @@
+@import url(http://fonts.cdnfonts.com/css/valorant);
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Quicksand:wght@500&display=swap);
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.card-border {
+  float: none;
+  border-radius: 30px 30px 30px 30px !important;
+  background-color: #e32451;
+  margin: 0.5rem;
+  white-space: nowrap;
+
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.agentIcon {
+  float: right;
+  /*margin: 0rem 0rem 0rem -1rem; vai pra esquerda*/
+  border-radius: 50%;
+} 
+.agentNameValorant {
+  font-family: 'VALORANT', sans-serif;
+  color: white;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.agentNumber {
+  color: white !important;
+}
+
+.agentName {
+  font-family: 'Oswald', sans-serif;
+}
+
+.agentRole {
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0.4em;
+}
+
+.bgImageHaven{
+  background-image: url('./utils/img/haven-bw.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* MUDANÇA 02/05
+
+.bgImageVLogo{
+  background-image: url('./utils/img/valorant.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.agent{
+  position:absolute;
+  z-index: 2;
+}
+
+.background{
+  z-index:3;
+  opacity:0.4;
+}
+
+*/
+
+.background, .agent, .logo{
+  position: absolute;
+}
+
+.background {
+  z-index:1;
+  opacity:0.4;
+}
+
+.logo{
+  z-index: 2;
+}
+
+.agent{
+  z-index: 3;
+}

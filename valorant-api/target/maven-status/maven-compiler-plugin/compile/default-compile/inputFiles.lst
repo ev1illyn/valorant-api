@@ -1,0 +1,10 @@
+/home/evillyn/Downloads/valorant/valorant-api/src/main/java/com/valorant/repository/AgentRepository.java
+/home/evillyn/Downloads/valorant/valorant-api/src/main/java/com/valorant/model/agents/Role.java
+/home/evillyn/Downloads/valorant/valorant-api/src/main/java/com/valorant/model/agents/Abilities.java
+/home/evillyn/Downloads/valorant/valorant-api/src/main/java/com/valorant/controller/AgentController.java
+/home/evillyn/Downloads/valorant/valorant-api/src/main/java/com/valorant/model/agents/Agent.java
+/home/evillyn/Downloads/valorant/valorant-api/src/main/java/com/valorant/model/agents/Agents.java
+/home/evillyn/Downloads/valorant/valorant-api/src/main/java/com/valorant/ValorantApiApplication.java
+/home/evillyn/Downloads/valorant/valorant-api/src/main/java/com/valorant/model/agents/Data.java
+/home/evillyn/Downloads/valorant/valorant-api/src/main/java/com/valorant/template/TemplateRest.java
+/home/evillyn/Downloads/valorant/valorant-api/src/main/java/com/valorant/service/AgentService.java
